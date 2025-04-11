@@ -7,6 +7,7 @@ using System.Linq;
 
 namespace Game.Infrastructure.RemoteConfig
 {
+    [CreateAssetMenu(menuName = "ScriptableObjects/RemoteConfigLevelProvider")]
     public class RemoteConfigLevelProvider : ScriptableObject, ILevelProvider
     {
         [SerializeField]

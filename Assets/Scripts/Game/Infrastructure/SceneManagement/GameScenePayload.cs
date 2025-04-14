@@ -1,7 +1,6 @@
-﻿using Game.Bootstrap.SceneDefinitions;
-using Game.Shared.SceneManagement;
+﻿using Game.Shared.SceneManagement;
 
-namespace Game.Bootstrap.Game
+namespace Game.Infrastructure.SceneManagement
 {
     public class GameScenePayload : IScenePayload
     {

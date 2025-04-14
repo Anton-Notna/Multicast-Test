@@ -1,4 +1,5 @@
-﻿using Game.Shared.SceneManagement;
+﻿using Game.Infrastructure.SceneManagement;
+using Game.Shared.SceneManagement;
 using Zenject;
 
 namespace Game.Bootstrap.Settings

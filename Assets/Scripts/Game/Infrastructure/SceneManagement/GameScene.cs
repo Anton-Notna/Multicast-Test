@@ -1,4 +1,4 @@
-﻿namespace Game.Bootstrap.SceneDefinitions
+﻿namespace Game.Infrastructure.SceneManagement
 {
     public enum GameScene
     {

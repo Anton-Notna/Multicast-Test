@@ -1,4 +1,5 @@
-﻿using Game.Shared.SceneManagement;
+﻿using Game.Infrastructure.SceneManagement;
+using Game.Shared.SceneManagement;
 using Game.UI.MainMenu;
 using UnityEngine;
 using Zenject;

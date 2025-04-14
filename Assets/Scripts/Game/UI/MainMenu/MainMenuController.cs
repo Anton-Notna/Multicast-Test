@@ -1,10 +1,8 @@
-﻿using Cysharp.Threading.Tasks;
-using Game.Bootstrap.Game;
-using Game.Bootstrap.Settings;
+﻿using System;
+using Zenject;
+using Cysharp.Threading.Tasks;
 using Game.Core.Storage;
 using Game.Infrastructure.SceneManagement;
-using System;
-using Zenject;
 
 namespace Game.UI.MainMenu
 {

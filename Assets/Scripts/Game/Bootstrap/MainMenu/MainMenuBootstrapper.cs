@@ -19,7 +19,7 @@ namespace Game.Bootstrap.MainMenu
 
         public void Bootstrap(MainMenuPayload payload)
         {
-            
+            Container.InjectGameObject(_mainMenuView.gameObject);
         }
     }
 }

@@ -37,9 +37,6 @@ namespace Game.UI.MainMenu
             _sceneLoader.Load(new GameScenePayload(level)).Forget();
         }
 
-        private void HandleSettings()
-        {
-            _sceneLoader.Load(new SettingsPayload()).Forget();
-        }
+        private void HandleSettings() => _sceneLoader.Load(new SettingsPayload()).Forget();
     }
 }

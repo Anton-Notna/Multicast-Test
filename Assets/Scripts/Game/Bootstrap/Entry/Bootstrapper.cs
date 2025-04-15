@@ -5,7 +5,7 @@ using Game.Core.Storage;
 using Game.Infrastructure.SceneManagement;
 using Game.Infrastructure.RemoteConfig;
 using Game.Infrastructure.Storage;
-using Game.Bootstrap.MainMenu;
+using Game.Infrastructure.Settings;
 
 namespace Game.Bootstrap.Entry
 {
@@ -25,6 +25,7 @@ namespace Game.Bootstrap.Entry
             Container.Bind<ILevelProvider>().FromInstance(_levelProvider).AsSingle();
             Container.Bind<ILevelStorage>().FromInstance(_levelStorage).AsSingle();
             Container.Bind<SceneLoader>().FromInstance(_sceneLoader).AsSingle();
+            Container.BindInterfacesAndSelfTo<SoundSettings>().AsSingle();
 
         }
 
